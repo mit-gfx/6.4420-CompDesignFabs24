@@ -1,0 +1,19 @@
+name: compfab
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - igl
+  - flask
+  - pip:
+    - trimesh
+    - scikit-image
+    - tetgen
+    - flask-cors
+    - fire
+    - typeguard
+    - svgwrite
+    - cairosvg
